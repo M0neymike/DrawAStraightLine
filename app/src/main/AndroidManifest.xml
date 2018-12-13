@@ -25,6 +25,8 @@
             android:name=".credits"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".paint" />
+        <activity android:name=".Game"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

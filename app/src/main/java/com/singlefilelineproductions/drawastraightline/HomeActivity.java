@@ -17,6 +17,8 @@ public class HomeActivity extends AppCompatActivity {
 
         Button paintbtn = (Button) findViewById(R.id.paintbutton);
 
+        Button playbtn = (Button) findViewById(R.id.playbutton);
+
         creditbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,6 +30,13 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, paint.class));
+            }
+        });
+
+        playbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, Game.class));
             }
         });
 }
