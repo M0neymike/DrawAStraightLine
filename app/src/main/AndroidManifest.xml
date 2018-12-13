@@ -21,8 +21,10 @@
         <activity
             android:name=".HomeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".credits"
+        <activity
+            android:name=".credits"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".paint" />
     </application>
 
 </manifest>

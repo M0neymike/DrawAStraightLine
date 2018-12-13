@@ -15,11 +15,20 @@ public class HomeActivity extends AppCompatActivity {
 
         Button creditbtn = (Button) findViewById(R.id.creditsbutton);
 
+        Button paintbtn = (Button) findViewById(R.id.paintbutton);
+
         creditbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, credits.class));
             }
         });
-    }
+
+        paintbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, paint.class));
+            }
+        });
+}
 }
